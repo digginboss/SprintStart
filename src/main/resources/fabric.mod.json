@@ -6,7 +6,7 @@
   "description": "Toggles the sprint function when the game starts",
   "authors": ["DigginBoss"],
   "contact": {},
-  "license": "All-Rights-Reserved",
+  "license": "MIT",
   "icon": "assets/sprintstart/icon.png",
   "environment": "client",
   "entrypoints": {
