@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "sprintstart",
+  "version": "${version}",
+  "name": "SprintStart",
+  "description": "Toggles the sprint function when the game starts",
+  "authors": ["DigginBoss"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/sprintstart/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.db.sprintstart.client.SprintstartClient"
+    ],
+    "main": [
+      "com.db.sprintstart.Sprintstart"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": ">1.20"
+  }
+}
